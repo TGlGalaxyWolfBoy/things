@@ -1,0 +1,4 @@
+1st type "echo "deb https://download.opensuse.org/repositories/home:/strycore/Debian_11/ ./" | sudo tee /etc/apt/sources.list.d/lutris.list" (this will get the parckage needed for the rest of the installment") now press enter
+2nd type "wget -q https://download.opensuse.org/repositories/home:/strycore/Debian_11/Release.key -O- | sudo tee /etc/apt/trusted.gpg.d/lutris.asc" (this will get the package to install lutris) now press enter
+3rd type "sudo apt update" (this will update the linux files and other important but dont need to know files" press enter now
+4th type "sudo apt install lutris"" (this will install lutris) now press enter
